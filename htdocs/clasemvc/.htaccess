@@ -1,0 +1,15 @@
+DirectoryIndex  index.html index.php
+
+RewriteEngine on
+
+<IfModule mod_rewrite.c>
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^/?(css|fonts|js|images)/(.+)\.(json|css|png|jpg|jpeg|js|txt|ttf|ttf2|woff|woff2|eot)$  assets/$1/$2.$3 [NC,L]
+
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)  public/index.php [NC,L]
+</IfModule>
