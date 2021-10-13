@@ -1,72 +1,97 @@
 <?php
 
-	class System_router
-	{
-		private $controller;
-		private $method = false;
-		private $params = array();
-		private $defaultController;
-		private $URI;
-		private $dirBase;
-	
+  class System_router
+  {
+    private $controller;
+    private $method = false;
+    private $params = array();
+    private $defaultController;
+    private $dirbase;
+    private $URI;
 
-		public function __construct(string $default, string $dirBase)
-		{
+    public function __construct(string $default,string $dirbase)
+    {
+      // controllado inicial
+      $this->defaultController = $default;
+      // url a mapear
+      $this->URI = $_SERVER["REQUEST_URI"];
+      // directorio base a ignorar
+      $this->dirbase = $dirbase;
 
-			//controlador inicial
-			$this->defaultController = $default;
-			//uri a mapear
-			$this->URI =$_SERVER['REQUEST_URI'];
-			//directorio base a ignorar
-			$this->dirBase =  $dirBase;
+      $this->mapRoute();
+      // ->setRoute();
 
-			$this->mapRoute(); //->setRoute();
+    }
 
-		}
+    public function setRoute()
+    {
+      // colocar la ruta mapping en los atributos de la clase
+    }
 
-		 public function mapRoute(string $route = '')
-		{
-			// metodo para mapear la ruta
-			if($route)
-			{
-				$this->URI = $route;
-			}
+    public function mapRoute(string $route = "")
+    {
+      // mÃ©todo para mapear la ruta
+      if($route){
+        $this->URI = $route;
+      }
 
-			if($this->URI != "")
-			{
-				if(strpos($this->URI, '/'.$this->dirBase) == 0 and $this->dirBase != "")
-				{
-					$this->URI = str_replace("/".$this->dirBase, '',$this->URI);
+      if($this->URI != ""){
+        if(strpos($this->URI,'/'.$this->dirbase) == 0 and $this->dirbase != ""){
+          $this->URI = str_replace("/".$this->dirbase,'',$this->URI);
+        }
+        if($this->URI == "/"){
+          $this->URI = $this->defaultController;
+        }
+        $uriparts = explode("/",$this->URI);
+        $controllerFound = false;
+        $methodFound = false;
+        $i = 0;
+        // print_array($this->URI);
+        // print_array($uriparts);
+        foreach ($uriparts as $key => $segment) {
+          // var_dump($segment != "");
+          if($segment == "")
+          {
+            continue;
+          }
+          if($i == 0 and $controllerFound == false and $segment != ""){
+            // echo 'controller -- '.$segment;
+            $controllerFound = true;
+            $this->controller = $segment;
+          }elseif($controllerFound == true and $methodFound == false and $i > 0){
+            $methodFound = true;
+            $this->method = $segment;
+          }elseif($segment != ""){
+            $this->params[] = $segment;
+          }
+          if($segment != "")
+            $i++;
+        }
+      }
 
-				}
-				echo $this->URI;
-			}
-		}
+      return $this;
+    }
 
-		public function setRoute()
-		{
-			// colocar la ruta mapeada en los atributos de la clase
-		}
+    public function getController()
+    {
+      return $this->controller;
+    }
 
-		public function getController()
-	  {
-	    return $this->controller;
-	  }
+    public function getMethod()
+    {
+      return $this->method;
+    }
 
-	  public function getMethod()
-	  {
-	    return $this->method;
-	  }
+    public function getParams()
+    {
+      return $this->params;
+    }
 
-	  public function getParams()
-	  {
-	    return $this->params;
-	  }
+    public function getURI()
+    {
+      return $this->URI;
+    }
+  }
+  
 
-
-	  public function getURI()
-	  {
-	    return $this->URI;
-	  }
-}
 ?>

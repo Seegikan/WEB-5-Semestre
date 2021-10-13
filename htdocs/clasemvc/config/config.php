@@ -20,7 +20,7 @@ define("DEV_ENV",true);
   */
   define("DOCUMENT_ROOT",$_SERVER["DOCUMENT_ROOT"].'/'.SUBDIR);
   define('APPLICATION', DOCUMENT_ROOT.'/app');
-  define('SOURCE', DOCUMENT_ROOT."/src");
+  define('SOURCE', APPLICATION);
   define("ERROR_NO", serialize (array (2002,1045,42000))); // Errores por 
   define("TIME_ZONE",'America/Mexico_City');
 
