@@ -1,5 +1,6 @@
 <?php
-define("DEV_ENV",true);
+
+ define("DEV_ENV",true);
 
   define('SUBDIR','clasemvc');
   define('URL', 'http://'.$_SERVER["SERVER_NAME"]."/".SUBDIR);
