@@ -7,12 +7,14 @@
   /* Configuración de la Base de Datos
   */
   $dbconfig = array();
+  //defoult es el [objeto] y [propiedades]
   $dbconfig["default"]['DB_TYPE'] = "mysql";
   $dbconfig["default"]['DB_HOST'] = "localhost";
-  $dbconfig["default"]['DB_NAME'] = "testapp";
+  //base de datos 
+  $dbconfig["default"]['DB_NAME'] = "clase";
   $dbconfig["default"]['DB_USER'] = "root";
   $dbconfig["default"]['DB_PASS'] = "";
-  
+
   define("DB_CONFIG", $dbconfig);
   define('CHARSET','utf8');
 

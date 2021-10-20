@@ -15,6 +15,7 @@
     }
     else{
           $file = APPLICATION."/".$data.".php";
+          //var_dump(file_exists($file));
           if(is_file($file) && file_exists($file)){
           require_once($file);
           }

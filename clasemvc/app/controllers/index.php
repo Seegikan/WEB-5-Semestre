@@ -1,6 +1,7 @@
 <?php 
 	class Index extends System_core
 	{
+		//un controlador no puede
 		public function __construct()
 		{
 			parent::__construct();
@@ -9,7 +10,18 @@
 
 		public function main()
 		{
-			echo 'hola quesos o quesadillas';
+			//echo 'hola quesos o quesadillas';
+			$model = $this->load->model("home");
+			$data = [];
+			$data["gallery"] = $model->getGallery();
+			//data 
+			$utilities = new Utilities_layout();
+			$utilities->top();
+			$this->load->view("index",$data);
+			$utilities->bottom();
+    		$pdo = Db_pdo::getInstance();
+    		var_dump($pdo);
+
 		}
 
 		public function test($a = 0,$b = 0)
