@@ -6,6 +6,18 @@
 body{
   font-family: 'Open Sans';
 }
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.cart_botton{
+  margin-top: 10px;
+}
+
 .product_list{
   display: flex;
   flex-wrap: wrap;
@@ -24,6 +36,12 @@ body{
   height: 200px;
   overflow: hidden;
   position: relative;
+}
+
+.card-price{
+  text-align: center;
+  font-weight: bold;
+
 }
 
 .btn_add_cart_item{
@@ -56,10 +74,24 @@ body{
 }
 
 .btn_add_cart_item:hover {
-  background-color: #7F052A
-  ;
+  background-color: #7F052A  ;
   color: #FFF;
 }
+
+
+.minicart-list li{
+ padding:10px 15px;
+ border-bottom: 1px solid;
+ border-color:#CDCDCD;
+}
+.minicart-list li:first-child{
+  border-top: 0px;
+}
+.minicart-list li:last-child{
+  border-bottom: 0px;
+}
+
+
 
 @media screen and(max-width:768px){
   body{

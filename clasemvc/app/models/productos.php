@@ -1,7 +1,3 @@
-class pruducts
-
-	get
-	return base de datos 
 
 	<?php 
   // consultamos los productos de la base de datos
@@ -20,9 +16,13 @@ class pruducts
       </div>
       <div class="card-body">
         <h5 class="card-title"><?= $product["Name"] ?></h5>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
         <!-- <p class="card-text"><?= $product["Description"]?></p> -->
       </div>
     </div>
     <?php    
   }
 ?>
+
+
+       <a href="#" class="rounded-pill btn btn-info">Ver más</a>

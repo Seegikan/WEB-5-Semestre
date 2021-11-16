@@ -4,6 +4,8 @@
   //echo(DOCUMENT_ROOT);
 
   include(DOCUMENT_ROOT."/config/autoload.php");
+  //iniciar una sesion
+  session_start();
 
 /*
   require_once '../config/config.php';
@@ -19,6 +21,7 @@
   $core = System_core::getInstance();
   //$core-> load-> view('test/testnew');
   $controllerClass = $core->load->controller($router->getController());
+ 
 
   if(is_object($controllerClass))
   {

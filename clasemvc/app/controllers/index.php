@@ -10,6 +10,11 @@
 
 		public function main()
 		{
+
+				//Limpia toda la sesion
+			//session_destroy();
+			//session_start();
+
 			//echo 'hola quesos o quesadillas';
 			$model = $this->load->model("home");
 			$data = [];
@@ -20,7 +25,7 @@
 			$this->load->view("index",$data);
 			$utilities->bottom();
     		$pdo = Db_pdo::getInstance();
-    		var_dump($pdo);
+    		print_array($_SESSION);
 
 		}
 

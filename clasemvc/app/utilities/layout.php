@@ -17,11 +17,11 @@
 			$this->core->load->view("general/header");
 
 		}
-		public function bottom()
+		public function bottom($data = array())
 		{
 			// code...
 			$this->core->load->view("general/footer");
-			$this->core->load->view("general/bottom");
+			$this->core->load->view("general/bottom", $data);
 
 		}
 	}

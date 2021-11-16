@@ -1,0 +1,427 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"consulta"
+			],
+			[
+				"msql",
+				"msql_error()"
+			],
+			[
+				"_",
+				"$_POST"
+			],
+			[
+				"mys",
+				"mysql_query()"
+			],
+			[
+				"my",
+				"mysql_error()"
+			],
+			[
+				"str",
+				"str_replace"
+			],
+			[
+				"r",
+				"route"
+			],
+			[
+				"di",
+				"dirBase"
+			],
+			[
+				"de",
+				"defaultController"
+			],
+			[
+				"arra",
+				"array()"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ga",
+				"galeria-cont"
+			],
+			[
+				"gr",
+				"grey"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"p",
+				"placeholder"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"sub_c",
+				"substr_count()"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"l",
+				"link"
+			],
+			[
+				"strto",
+				"strtolower()"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"f",
+				"flex-end\talign-items"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alexander/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Alexander/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs - copia/clase/views/products/bestsellers.php",
+		"/C/xampp/htdocs/clasemvc/config/autoload.php",
+		"/C/xampp/htdocs/clasemvc/app/models/suma.php",
+		"/F/android/php/conectar.php",
+		"/F/android/php/query.php",
+		"/F/android/Codigos/Log In/LogIn",
+		"/F/android/Codigos/Log In/Log In con cambio de pantalla",
+		"/F/android/Codigos/Segunda Pantalla despues del log in",
+		"/C/xampp/htdocs/clasemvc/config/config.php",
+		"/C/xampp/htdocs/clasemvc/libs/system/router.php",
+		"/C/xampp/htdocs/clasemvc/.htaccess",
+		"/C/xampp/htdocs/clasemvc/public/index.php",
+		"/C/xampp/htdocs/clasemvc/index.php",
+		"/C/xampp/htdocs/clase/index.php",
+		"/C/xampp/htdocs/landingpage/css/stilos.css",
+		"/C/xampp/htdocs/landingpage/index.html",
+		"/C/xampp/htdocs/landingpage/pages/games/index.html",
+		"/C/xampp/htdocs/landingpage/pages/landing/index.html",
+		"/C/xampp/htdocs/landingpage/pages/jam/index.html",
+		"/C/xampp/htdocs/clase/views/sections/ajax.php",
+		"/C/xampp/htdocs/landingpage/dir",
+		"/C/xampp/htdocs/clase/views/ajax/ejemplo.php",
+		"/F/android/Codigos/Ejercicio de cambio despues de log in",
+		"/F/android/Codigos/Tarea viajes/main",
+		"/F/android/Codigos/Tarea viajes/plantillaDescription",
+		"/F/android/Codigos/TextField",
+		"/C/Users/ALEXAN~1/AppData/Local/Temp/Rar$DRa3780.47744/Landing Page HTML/index.html",
+		"/C/Users/Alexander/AppData/Local/Temp/Rar$DIa3780.35634/estilos.css",
+		"/F/android/Codigos/Noticias Tarea/NoticiasMenu",
+		"/F/android/Codigos/Noticias Tarea/NotaAComunicar",
+		"/F/android/Codigos/Facebook",
+		"/F/android/Codigos/Navagacion con hamburgesa/Menu",
+		"/F/android/Codigos/Navagacion con hamburgesa/Nota",
+		"/F/android/GuardarDatos/Home",
+		"/F/android/GuardarDatos/GuardarDato",
+		"/F/android/Codigos/Navagacion con hamburgesa/main",
+		"/C/xampp/htdocs/clase/views/sections/index.php",
+		"/C/xampp/htdocs/clase/views/general/bottom.php",
+		"/C/xampp/htdocs/clase/views/general/header.php",
+		"/C/xampp/htdocs/clase/views/general/top.php",
+		"/C/xampp/htdocs/clase/config/config.php",
+		"/C/xampp/htdocs/clase/views/products/bestsellers.php",
+		"/C/xampp/htdocs/clase/.htaccess",
+		"/C/xampp/htdocs/WEB/clase/assets/css/style.css",
+		"/C/xampp/htdocs/WEB/clase/views/general/header.php",
+		"/C/xampp/htdocs/WEB/clase/views/section/ajax.php",
+		"/C/xampp/htdocs/WEB/clase/views/ajax/ejemplo.php",
+		"/C/xampp/htdocs/WEB/clase/views/general/bottom.php",
+		"/C/xampp/htdocs/WEB/clase/views/general/top.php",
+		"/C/xampp/htdocs/WEB/clase/index.php",
+		"/F/android/Codigos/Menu",
+		"/F/android/Codigos/pantalla",
+		"/F/android/Codigos/Navagacion con hamburgesa/Principal",
+		"/F/android/Codigos/Boton",
+		"/C/xampp/htdocs/WEB/Amerike.php",
+		"/F/android/Codigos/NoticiasMenu",
+		"/F/android/Codigos/NotaAComunicar",
+		"/C/xampp/htdocs/WEB/clase/views/products/bestsellers.php",
+		"/F/android/Codigos/Log In con cambio de pantalla",
+		"/F/android/Codigos/Scroll",
+		"/C/Users/Alexander/AppData/Local/Temp/Rar$DIa17240.2113/top.php",
+		"/C/xampp/htdocs/WEB/clase/views/section/index.php",
+		"/C/xampp/htdocs/WEB/style.css",
+		"/C/xampp/htdocs/WEB/clase/config/AutoLoad.php",
+		"/C/xampp/htdocs/WEB/index.php",
+		"/C/xampp/htdocs/WEB/htaccess",
+		"/C/xampp/htdocs/WEB/Ejemplo.txt",
+		"/C/xampp/htdocs/WEB/Example.php",
+		"/C/xampp/htdocs/WEB/clase/views/general/index.php",
+		"/F/Alexander/Downloads/arregloDeportes.php",
+		"/C/xampp/htdocs/WEB/clase/views/html_grid.php",
+		"/F/WEB/Alexander1/PrimeraPractica.php",
+		"/F/android/Examen]",
+		"/F/android/Codigos/LogIn",
+		"/C/Users/Alexander/AppData/Local/Temp/Rar$DIa17240.1911/top.php",
+		"/C/Users/Alexander/AppData/Local/Temp/Rar$DIa17240.5657/bottom.php",
+		"/C/xampp/htdocs/WEB/clase/views/general/hearder.php",
+		"/C/xampp/htdocs/WEB/clase/views/general/footer.php",
+		"/F/WEB/Alexander2/Grid.html",
+		"/C/xampp/htdocs/WEB/clase/views/basedatos.php",
+		"/C/xampp/htdocs/WEB/clase/config/config.php",
+		"/C/xampp/htdocs/WEB/clase/config/basedatos.php",
+		"/C/xampp/htdocs/WEB/Ejemplo.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
