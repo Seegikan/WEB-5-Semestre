@@ -11,7 +11,9 @@
 			echo "<li>{$item["Quantity"]} x {$item["Name"]} <span> \$$total  </span> <li>";
 		}
 		
-		echo '<li>Total: $' .number_format($_SESSION["Cart"]["Total"], 2). '</li>';
+		echo '<li>Total: $' .number_format($_SESSION["Cart"]["Total"], 2).'</li>';
+		echo '<a href=" '.URL.'/shoppingcart" class="rounded-pill btn btn-info">Carrito</a>';
+
 	}
 	else
 	{
@@ -22,4 +24,3 @@
 
 
 
-<a href="#" class="rounded-pill btn btn-info">Carrito</a>

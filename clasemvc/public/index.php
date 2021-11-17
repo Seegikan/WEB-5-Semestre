@@ -36,5 +36,11 @@
     }
   }
 
+  /*if($notfound === true)
+  {
+    header("HTTP/1.0 404 Not Found");
+    $core->load->view("404");
+  }*/
+
 ?>
 

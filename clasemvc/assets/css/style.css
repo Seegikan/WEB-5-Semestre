@@ -7,6 +7,29 @@ body{
   font-family: 'Open Sans';
 }
 
+.listItem{
+  display: grid;
+  grid-template-columns: 20% 1fr 1fr 2fr 1fr;
+}
+
+.list_total{
+  display: grid;
+  grid-template-areas:". . . . total";}
+
+.buy_container{
+  text-align: center;
+  width: 100%;display: flex;
+  justify-content: center;
+  align-items: center;}
+
+#btn-buy{min-width: 200px;}.productinfo{padding:10px;}
+
+.totalContainer{
+  float: right;
+  padding: 15px;
+  grid-area: total;
+}
+
 .header-container{
   display: flex;
   justify-content: space-between;

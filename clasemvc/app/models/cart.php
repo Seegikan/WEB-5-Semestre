@@ -60,5 +60,65 @@
 			}
 			return $response;
 		}
+        public function delete()
+		{
+			$response = ["status" => false];
+			if(isset($_POST["product"]))
+			{
+				$id = $_POST["product"];
+				if(isset($_SESSION["Cart"]["Items"][$id]))
+				{
+					$toDelete = $_SESSION["Cart"]	["Items"][$id];
+					$_SESSION["Cart"]["Total"] -= $toDelete["Total"];
+					$_SESSION["Cart"]["TotalItems"] -= $toDelete["Quantity"];
+				}
+			}
+			return
+
+		}
+
+		public function update()
+		{
+			$response = ["status" => false];
+			if(isset($_POST["product"]) and isset($_POST["quantity"]))
+			{
+				$IDProduct = $_POST["product"];
+				$IDProduct = $_POST["Quantity"];
+				if(isset($_SESSION["Cart"]["Items"][$id]))
+				{
+					$tmp = $_SESSION["Cart"]["Items"][$id];
+					if($Quantity == 0)
+					{
+						$response = $this->delete();
+					}
+					else
+					{
+						$_SESSION["Cart"]["Items"][$id]["Quantity"] = Quantity;
+						$newTotal = $Quantity*$_SESSION["Cart"]["Items"][$id]["Price"];
+						$_SESSION["Cart"]["Items"][$id]["Total"] = $newTotal;
+
+						$_SESSION["Cart"]["Total"] -= $tmp["Total"];
+						$_SESSION["Cart"]["Total"] += $Quantity;
+						$response["status"] = true;
+						$response["ProducsTotal"] = '$' .number_format($newTotal, 2 );
+						$response["Total"] = '$' .number_format($_SESSION["Cart"]["Total"],2);
+						$response["TotalItems"] = $_SESSION["Cart"]["TotalItems"];
+					}
+
+				}
+				else
+				{
+					$response["massage"] = "no se encontro el producto";
+				}
+			}
+			else
+			{
+					$response["massage"] = "Request invalido";
+			}
+				return $response;
+		}//update
+
+
+
 	}
 ?>
